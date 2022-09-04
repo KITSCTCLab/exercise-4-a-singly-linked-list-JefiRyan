@@ -47,7 +47,7 @@ class LinkedList:
         temp=self.head
         print("[",end="")
         while temp.next!=None:
-            print(temp.data,end=",")
+            print(temp.data,end=", ")
             temp=temp.next
         print(temp.data,end="]\n")
 
